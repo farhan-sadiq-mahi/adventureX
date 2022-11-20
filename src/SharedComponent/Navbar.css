@@ -1,0 +1,8 @@
+@font-face {
+    font-family: teko;
+    src: url(../../font/Teko-SemiBold.ttf);
+}
+
+#navbarText {
+    font-family: teko;
+}
