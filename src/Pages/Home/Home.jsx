@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../SharedComponent/Navbar';
+import Navbar from '../../Navbar/Navbar';
 import HeroComponent from './HeroComponent';
 
 const Home = () => {

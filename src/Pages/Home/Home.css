@@ -2,3 +2,12 @@
     writing-mode: vertical-lr;
     transform: rotate(180deg);
 }
+
+@font-face {
+    font-family: teko;
+    src: url(../../../font/Teko-SemiBold.ttf);
+}
+
+#tekoFont {
+    font-family: teko;
+}
