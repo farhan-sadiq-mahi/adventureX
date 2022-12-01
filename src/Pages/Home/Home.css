@@ -1,7 +1,4 @@
-.verticalText {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-}
+.verticalText {}
 
 @font-face {
     font-family: teko;
@@ -10,4 +7,11 @@
 
 #tekoFont {
     font-family: teko;
+}
+
+@media only screen and (min-width: 768px) {
+    .verticalText {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
 }
